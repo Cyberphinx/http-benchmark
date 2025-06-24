@@ -16,3 +16,13 @@ chmod +x test_rate_limiting.sh
 
 ./test_rate_limiting.sh https://example.com
 ```
+
+# 3 Test Rate Limit on Server
+
+### Test the rate limit on the server itself:
+
+```
+chmod +x test_rate_limiting.sh
+
+./test_rate_limit_on_server.sh
+```
